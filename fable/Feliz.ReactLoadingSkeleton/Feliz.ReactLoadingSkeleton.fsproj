@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\CIT-Circle.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="paket.references" />
     <Compile Include="Feliz.ReactLoadingSkeleton.fs" />
   </ItemGroup>
@@ -19,5 +23,11 @@
      <NpmDependencies>
         <NpmPackage Name="react-loading-skeleton" Version="gte 2.2.0 lt 3.0.0" ResolutionStrategy="Max" />
      </NpmDependencies>
+     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+     <Version>0.0.1</Version>
+     <Authors>Compositional IT</Authors>
+     <PackageProjectUrl>https://github.com/CompositionalIT/Feliz.ReactLoadingSkeleton</PackageProjectUrl>
+     <RepositoryUrl>https://github.com/CompositionalIT/Feliz.ReactLoadingSkeleton</RepositoryUrl>
+     <PackageIcon>CIT-Circle.png</PackageIcon>
   </PropertyGroup>
 </Project>
