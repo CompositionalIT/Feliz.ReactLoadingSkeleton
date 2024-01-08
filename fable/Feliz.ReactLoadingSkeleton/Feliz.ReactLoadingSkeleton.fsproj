@@ -18,7 +18,7 @@
   </ItemGroup>
   <PropertyGroup>
     <NpmDependencies>
-      <NpmPackage Name="react-loading-skeleton" Version="gte 2.2.0 lt 3.0.0" ResolutionStrategy="Max" />
+      <NpmPackage Name="react-loading-skeleton" Version="gte 3.3.1 lt 4.0.0" ResolutionStrategy="Max" />
     </NpmDependencies>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.0</Version>
