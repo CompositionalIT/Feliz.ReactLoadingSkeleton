@@ -6,6 +6,8 @@ open Fable.Core.JsInterop
 let skeleton: obj = importDefault "react-loading-skeleton"
 let skeletonTheme: obj = import "SkeletonTheme" "react-loading-skeleton"
 
+importAll "react-loading-skeleton/dist/skeleton.css"
+
 type ISkeletonThemeProperty = interface end
 
 type SkeletonTheme =
