@@ -26,6 +26,9 @@
     <PackageProjectUrl>https://github.com/CompositionalIT/Feliz.ReactLoadingSkeleton</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CompositionalIT/Feliz.ReactLoadingSkeleton</RepositoryUrl>
     <PackageIcon>CIT-Circle.png</PackageIcon>
+    <DebugType>embedded</DebugType>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PackageTags>fable;fable-binding;fable-javascript</PackageTags>
   </PropertyGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
